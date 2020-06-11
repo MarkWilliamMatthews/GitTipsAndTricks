@@ -1,6 +1,6 @@
 # Git Tips And Tricks
 
-##List local commits not on remote: 
+## List local commits not on remote: 
 	
     git log --branches --not –remotes
 
