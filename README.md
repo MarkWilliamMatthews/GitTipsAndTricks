@@ -34,6 +34,7 @@
 	git checkout commit # checkout to commit
 
 **Revert to a previous commit that has been pushed to remote:**
+	
 	git reset --hard 'xxxxx'
 	git clean -f -d
 	git push -f
