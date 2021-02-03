@@ -28,10 +28,15 @@
 
 	git log origin/develop..HEAD
 
-**Revert to a previous commit:**
+**Revert to a previous commit locally:**
 
 	git log # view commits
 	git checkout commit # checkout to commit
+
+**Revert to a previous commit that has been pushed to remote:**
+	git reset --hard 'xxxxx'
+	git clean -f -d
+	git push -f
 
 **Checkout a file from another branch:**
 
