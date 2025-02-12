@@ -37,7 +37,7 @@
 	
 	git reset --hard 'xxxxx'
 	git clean -f -d
-	git push -f
+	git push -f  # this may require you to override branch protections 
 
 **Checkout a file from another branch:**
 
