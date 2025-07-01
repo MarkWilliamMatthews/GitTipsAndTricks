@@ -38,6 +38,7 @@
 	git reset --hard 'xxxxx'
 	git clean -f -d
 	git push -f  # this may require you to override branch protections 
+ 	git push -f origin branch_name  # this should override if you have permissions 
 
 **Checkout a file from another branch:**
 
