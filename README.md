@@ -72,4 +72,14 @@ In the branch you want to add the file to do:
 
 	git cherry-pick commit-hash 
 
+
+**Add a remote repo**
+
+	git remote add remote_name_you_choose https://github.com/OWNER/REPOSITORY.git  [enter your username and git access token, ensure the repo owner has given you access]
+
+ **Checkout a remote branch to a new branch in your repo:**
+
+	git fetch remote_name [you will be prompted to enter your username and access token] 
+        git checkout remote_name/branch_name
+	git switch -c you_branch_name  [ this will checkout a new branch in your repo ]
 	
