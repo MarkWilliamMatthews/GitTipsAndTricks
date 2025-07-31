@@ -83,3 +83,8 @@ In the branch you want to add the file to do:
         git checkout remote_name/branch_name
 	git switch -c you_branch_name  [ this will checkout a new branch in your repo ]
 	
+**Clone labels from one project to another:**
+
+        gh auth login 
+        gh label clone owner-name/source-repo-name --repo owner-name/destination-repo-name --force
+
